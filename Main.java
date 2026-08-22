@@ -46,6 +46,7 @@ public class Main {
 	        System.out.println("Tu saldo bruto es : " + sueldo_normal);
 	        double pago_extra_function = calcular_saldoExtra(horas);
 	        double descuento_sueldo_bruto= condiciones_descuento(sueldo_normal);
+			System.out.println("Tu descuento por ley es de: " + descuento_sueldo_bruto);
 	        System.out.println("Tu pago extra por horas extras es de: " + pago_extra_function);
 	        total_bruto=sueldo_normal+pago_extra_function-descuento_sueldo_bruto;
 	        System.out.println("Tu saldo total es: " + total_bruto);
