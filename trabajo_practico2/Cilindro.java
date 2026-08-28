@@ -1,5 +1,3 @@
-package trabajo_practico2;
-
 public class Cilindro {
     private double radio;
     private double altura;
