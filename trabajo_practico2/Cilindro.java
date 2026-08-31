@@ -103,24 +103,10 @@ public class Cilindro {
          main_menu();
 
         System.out.println("Elige una opcion: ");
-          int opcion = entrada.nextInt();
-           int funcion_opcion = opciones_menu(opcion,cilindro1,entrada);
-    
-        if (funcion_opcion == 5){
-            continuar = 0;
-        }
+        int opcion = entrada.nextInt();
         
-        
-       }catch(Exception e){
-           
-           System.out.println("Error: por favor ingrese bien " + e);
-           entrada.nextLine();
-           
-       }
-      }while(continuar ==1);
+        Cilindro cilindro1 = new Cilindro(2.0,4);
 
-       
-       
     }
 
 }
